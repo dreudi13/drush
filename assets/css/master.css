@@ -1,0 +1,30 @@
+body{
+    background-color: #eee;
+}
+*{
+    box-sizing: border-box;
+}
+/****************************************
+ *
+ *  Layouts
+ *
+ * **************************************/
+.container{ }
+
+.main{
+    width: 100%;
+    height: 100vh;
+    border: 5px dashed #bbb;
+}
+
+.dropzone{ }
+
+.dropzone h1{
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.dropzone a.button{
+    font-weight: 700;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "drush",
+  "version": "1.0.0",
+  "description": "Derush task app in psot-production",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dreudi13/drush.git"
+  },
+  "author": "dreudi13",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dreudi13/drush/issues"
+  },
+  "homepage": "https://github.com/dreudi13/drush#readme",
+  "dependencies": {
+    "electron": "^2.0.6",
+    "electron-context-menu": "^0.10.0",
+    "electron-debug": "^2.0.0"
+  },
+  "devDependencies": {
+    "electron-reloader": "^0.2.0"
+  }
+}
